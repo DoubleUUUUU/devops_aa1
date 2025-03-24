@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from 'react'
 import { Car } from '../../../../../lib/types/types';
-import { isatty } from 'tty';
 
 type Props = { car: Car }
 
