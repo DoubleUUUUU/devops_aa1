@@ -3,8 +3,6 @@ import { Car } from '../../../lib/types/types';
 import CarList from '../components/ui/CarList';
 
 
-type Props = {}
-
 
 
 const cars: Car[] = [
@@ -102,7 +100,7 @@ const cars: Car[] = [
 ]
 
 
-export default function Cars({}: Props) {
+export default function Page() {
   return ( 
     <div>
       <h1>Cars</h1>
