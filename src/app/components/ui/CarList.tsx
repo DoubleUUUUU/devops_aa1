@@ -10,7 +10,7 @@ export default function CarList({ cars }: Props) {
         <h1>CarList:</h1>
         <div className='grid grid-cols-3 md:grid-cols-4 gap-4'>
             {cars.map((car: Car) => (
-            <Card car={car}/>
+            <Card key={car.motor.serialNumber} car={car}/>
         ))}
         </div>
          
